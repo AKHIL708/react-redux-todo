@@ -1,0 +1,30 @@
+.col {
+  // border: 1px solid red;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .row {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vw 0;
+    // border: 1px solid gray;
+    background-color: #6e6e6e;
+    padding: 0.6vw;
+    border-radius: 0.8vw;
+    h1 {
+      font-size: 2vw;
+    }
+  }
+}
+input {
+  outline: none;
+  border: none;
+  width: 20vw;
+  font-size: 2vw;
+  padding: 0.6vw;
+  margin: 0 1vw;
+}
